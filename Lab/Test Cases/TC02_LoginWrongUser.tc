@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_LoginWrongUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>170aa27c-535f-4ceb-81e6-dff16c7d36ce</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>fde1edbc-7f16-4525-a886-30b3c08df74b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>0d9f2b0a-2489-4555-bccf-4ac85deda8c7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'John'</defaultValue>
+      <description></description>
+      <id>552e47ef-fe1a-4346-bb92-02ccdcafbf44</id>
+      <masked>false</masked>
+      <name>userWrong</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsPassword'</defaultValue>
+      <description></description>
+      <id>d160a375-b48e-4aaa-9963-3fa5339ffe49</id>
+      <masked>false</masked>
+      <name>passWrong</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c36dbe54-b946-40a2-963d-2eb8d951121b</id>
+      <masked>false</masked>
+      <name>userBlank</name>
+   </variable>
+</TestCaseEntity>
